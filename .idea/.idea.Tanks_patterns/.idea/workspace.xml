@@ -18,12 +18,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/View/Interface/ITankView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Controller/Interface/ITankControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Controller/Interface/ITankFire.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/View/TankView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/TankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CommonClasses/HealthClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Factory/TankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Factory/Interface/ITankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/View/TankView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/TankClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Controller/TankCOntroller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Model/TankModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Controller/TankController.cs" />
       </list>
     </option>
   </component>
@@ -66,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635265965504</updated>
       <workItem from="1635265989284" duration="48000" />
-      <workItem from="1635266108386" duration="4183000" />
+      <workItem from="1635266108386" duration="5155000" />
     </task>
     <servers />
   </component>
@@ -74,5 +77,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="495" y="49" key="RiderGenerateDialog" timestamp="1635271226465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="495" y="49" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1635271226465" />
   </component>
 </project>

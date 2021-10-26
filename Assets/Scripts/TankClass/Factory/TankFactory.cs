@@ -1,6 +1,8 @@
 ﻿using CommonClasses;
+using TankClass.Controller;
 using TankClass.Controller.Interface;
 using TankClass.Interface;
+using TankClass.Model;
 using TankClass.View;
 using UnityEngine;
 
@@ -14,7 +16,7 @@ namespace TankClass.Factory
         {
             var tank = Object.Instantiate(Resources.Load<TankView>("Assets/_Completed-Assets/Prefabs/CompleteTank.prefab"));
             tank.transform.position = position;
-            //_tankControl = new T
+            _tankControl = new TankController(new TankModel(Color.red, 1),tank);
             return tank;
         }     
 
