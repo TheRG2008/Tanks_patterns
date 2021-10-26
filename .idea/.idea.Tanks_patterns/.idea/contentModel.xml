@@ -6,14 +6,12 @@
     <e p="C:\Users\konop\Documents\GitHub\Tanks_patterns" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Fonts" t="Include">
-          <e p="Bowlby_One" t="Include">
-            <e p="FontLicense.txt" t="Include" />
-          </e>
-        </e>
-        <e p="Scripts" t="Include">
+        <e p="Code" t="Include">
           <e p="CommonClasses" t="Include">
             <e p="HealthClass.cs" t="Include" />
+          </e>
+          <e p="EventHandlers" t="Include">
+            <e p="FireEvent.cs" t="Include" />
           </e>
           <e p="GameStarter.cs" t="Include" />
           <e p="Markers" t="Include">
@@ -35,6 +33,11 @@
               <e p="ITankView.cs" t="Include" />
             </e>
             <e p="TankFactory.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Fonts" t="Include">
+          <e p="Bowlby_One" t="Include">
+            <e p="FontLicense.txt" t="Include" />
           </e>
         </e>
         <e p="Tanks!_Third-PartyNotice.txt" t="Include" />

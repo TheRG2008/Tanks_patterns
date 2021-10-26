@@ -1,4 +1,4 @@
-﻿namespace TankClass.Controller.Interface
+﻿namespace TankClass.Interfaces
 {
     public interface ITankFire
     {

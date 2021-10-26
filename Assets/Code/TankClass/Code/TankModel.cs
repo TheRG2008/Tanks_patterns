@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using TankClass.Interfaces;
+using UnityEngine;
 
-namespace TankClass.Model
+namespace TankClass.Code
 {
     public struct TankModel : ITankModel
     {

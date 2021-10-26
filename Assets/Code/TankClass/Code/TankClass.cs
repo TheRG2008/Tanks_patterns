@@ -1,17 +1,16 @@
 ﻿using CommonClasses;
-using TankClass.View;
 using UnityEngine;
 
-namespace TankClass
+namespace TankClass.Code
 {
     public abstract class TankClass : MonoBehaviour
     {
         public static TankView TankView;
-        private Health Health { get; set; }
+        public Health Health { get; set; }
 
         public static TankView CreateTank(Health health, Vector2 position)
         {
-            var tank = Resources.Load<TankView>("Assets/_Completed-Assets/Prefabs/CompleteTank.prefab");
+            var tank = Resources.Load<TankView>("_Completed-Assets/Prefabs/CompleteTank");
             tank.Health = health;
             return tank;
         }
