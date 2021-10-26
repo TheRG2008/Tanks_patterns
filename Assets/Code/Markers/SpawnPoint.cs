@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace DefaultNamespace.Markers
+namespace Markers
 {
     public class SpawnPoint: MonoBehaviour
 

@@ -1,8 +1,6 @@
-﻿using TankClass.Controller.Interface;
-using TankClass.Model;
-using TankClass.View.Interface;
+﻿using TankClass.Interfaces;
 
-namespace TankClass.Controller
+namespace TankClass.Code
 {
     public class TankController : ITankControl
     {

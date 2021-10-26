@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace TankClass.View.Interface
+namespace TankClass.Interfaces
 {
     public interface ITankView
     {

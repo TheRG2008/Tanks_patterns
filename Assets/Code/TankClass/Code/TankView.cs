@@ -1,8 +1,8 @@
 ﻿using System.Collections;
-using TankClass.View.Interface;
+using TankClass.Interfaces;
 using UnityEngine;
 
-namespace TankClass.View
+namespace TankClass.Code
 {
     public class TankView : TankClass, ITankView
     {

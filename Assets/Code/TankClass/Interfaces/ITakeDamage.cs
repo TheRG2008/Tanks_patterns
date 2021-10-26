@@ -1,4 +1,4 @@
-namespace TankClass.CommonInterfaces
+namespace TankClass.Interfaces
 {
     public interface ITakeDamage 
     {
