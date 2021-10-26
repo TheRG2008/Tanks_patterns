@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92e4d58b-faa6-4b9d-bdaf-0597bdf3b467" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/CommonInterfaces/ITakeDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Model/ITankModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/View/Interface/ITankView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Controller/Interface/ITankControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Controller/Interface/ITankFire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/TankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CommonClasses/HealthClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/View/TankView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/TankClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Controller/TankCOntroller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Model/TankModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Controller/TankController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Factory/TankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Factory/Interface/ITankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Markers/SpawnPoint.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="203GedFPcAlmIfNMqxbg6ULRkZ4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92e4d58b-faa6-4b9d-bdaf-0597bdf3b467" name="Default Changelist" comment="" />
+      <created>1635265965504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635265965504</updated>
+      <workItem from="1635265989284" duration="48000" />
+      <workItem from="1635266108386" duration="5968000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="495" y="49" key="RiderGenerateDialog" timestamp="1635271226465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="495" y="49" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1635271226465" />
+  </component>
+</project>
