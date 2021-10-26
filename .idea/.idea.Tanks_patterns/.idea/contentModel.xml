@@ -15,6 +15,10 @@
           <e p="CommonClasses" t="Include">
             <e p="HealthClass.cs" t="Include" />
           </e>
+          <e p="GameStarter.cs" t="Include" />
+          <e p="Markers" t="Include">
+            <e p="SpawnPoint.cs" t="Include" />
+          </e>
           <e p="TankClass" t="Include">
             <e p="Code" t="Include">
               <e p="TankClass.cs" t="Include" />

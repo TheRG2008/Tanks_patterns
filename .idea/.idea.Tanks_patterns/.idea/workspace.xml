@@ -27,6 +27,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Controller/TankController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Factory/TankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Factory/Interface/ITankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Markers/SpawnPoint.cs" />
       </list>
     </option>
   </component>
@@ -69,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635265965504</updated>
       <workItem from="1635265989284" duration="48000" />
-      <workItem from="1635266108386" duration="5506000" />
+      <workItem from="1635266108386" duration="5968000" />
     </task>
     <servers />
   </component>
