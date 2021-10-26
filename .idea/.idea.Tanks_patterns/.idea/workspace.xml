@@ -20,13 +20,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Controller/Interface/ITankFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/TankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CommonClasses/HealthClass.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Factory/TankFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Factory/Interface/ITankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/View/TankView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/TankClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Controller/TankCOntroller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Model/TankModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Controller/TankController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Factory/TankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Factory/Interface/ITankFactory.cs" />
       </list>
     </option>
   </component>
@@ -69,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635265965504</updated>
       <workItem from="1635265989284" duration="48000" />
-      <workItem from="1635266108386" duration="5155000" />
+      <workItem from="1635266108386" duration="5506000" />
     </task>
     <servers />
   </component>

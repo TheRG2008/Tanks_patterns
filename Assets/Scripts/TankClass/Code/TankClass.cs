@@ -1,5 +1,4 @@
 ﻿using CommonClasses;
-using TankClass.Interface;
 using TankClass.View;
 using UnityEngine;
 
