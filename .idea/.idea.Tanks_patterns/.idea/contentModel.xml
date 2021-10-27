@@ -15,12 +15,14 @@
           </e>
           <e p="GameStarter.cs" t="Include" />
           <e p="Markers" t="Include">
+            <e p="BulletMarker.cs" t="Include" />
             <e p="SpawnPoint.cs" t="Include" />
           </e>
           <e p="TankClass" t="Include">
             <e p="Code" t="Include">
               <e p="TankClass.cs" t="Include" />
               <e p="TankCOntroller.cs" t="Include" />
+              <e p="TankFire.cs" t="Include" />
               <e p="TankModel.cs" t="Include" />
               <e p="TankView.cs" t="Include" />
             </e>
