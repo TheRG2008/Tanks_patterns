@@ -29,7 +29,7 @@ public class GameStarter : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             _fireEvent.Fire();
-            Debug.Log("FIREEE");
+            Debug.Log("FIREEE from starter");
         }
     }
 

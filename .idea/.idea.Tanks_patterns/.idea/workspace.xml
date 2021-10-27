@@ -42,12 +42,12 @@
         <option value="$PROJECT_DIR$/Assets/Code/EventHandlers/FireEnent.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Markers/BulletMarker.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankClass.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/EventHandlers/FireEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/Interfaces/ITankFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/Interfaces/ITankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/EventHandlers/FireEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/TankFactory.cs" />
       </list>
     </option>
@@ -96,7 +96,7 @@
       <workItem from="1635265989284" duration="48000" />
       <workItem from="1635266108386" duration="7331000" />
       <workItem from="1635277132784" duration="4194000" />
-      <workItem from="1635356093834" duration="2443000" />
+      <workItem from="1635356093834" duration="3713000" />
     </task>
     <servers />
   </component>

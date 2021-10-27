@@ -21,8 +21,8 @@ namespace EventHandlers
             if (!_isTurnOver) return;
             else
             {
-                _tankList[0].Health.ChangeHp(10.0f);
-                startTurn?.Invoke();
+                //_tankList[0].Health.ChangeHp(10.0f);
+                _tankList[0].TankFire.Fire();
             }
             
         }

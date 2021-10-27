@@ -9,7 +9,7 @@ namespace TankClass.Code
         public TankFire(Vector2 SpawnPoint)
         {
             _spawnPoint = SpawnPoint;
-            Fire();
+            
         }
 
         public void Fire()

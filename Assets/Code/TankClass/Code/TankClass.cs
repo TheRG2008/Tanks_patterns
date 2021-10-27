@@ -1,5 +1,6 @@
 ﻿using CommonClasses;
 using Markers;
+using TankClass.Interfaces;
 using UnityEngine;
 
 namespace TankClass.Code
@@ -7,22 +8,24 @@ namespace TankClass.Code
     public abstract class TankClass : MonoBehaviour
     {
         public static TankView TankView;
-
-        public bool player;
+        public ITankFire TankFire;
+        public static bool _AI;
         public Health Health { get; set; }
 
-        public static TankView CreateTank(Health health, Vector2 position)
+        public static TankView CreateTank(Health health, Vector2 position, bool ai)
         {
             var tank = Resources.Load<TankView>("_Completed-Assets/Prefabs/CompleteTank");
             tank.Health = health;
+            _AI = ai;
+         //   tank.TankFire = new TankFire(Vector2.zero);// find gun position
             return tank;
         }
         
         public void OnCollisionEnter(Collision other)
         {
-            if (other.GetType() == typeof(BulletMarker) && player)
+            if (TryGetComponent<BulletMarker>(out var bullet) && !_AI)
             {
-                Debug.Log("It hurts");
+           //     TankFire.Fire();
             }
             else
             {
