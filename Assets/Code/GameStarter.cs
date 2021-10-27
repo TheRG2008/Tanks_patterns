@@ -26,7 +26,7 @@ public class GameStarter : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.Space))
         {
             _fireEvent.Fire();
             Debug.Log("FIREEE from starter");
