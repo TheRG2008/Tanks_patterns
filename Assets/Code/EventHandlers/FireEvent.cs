@@ -7,7 +7,7 @@ namespace EventHandlers
     public class FireEvent
     {
         private bool _isTurnOver = true;
-        private List<TankClass> _tankList = new List<TankClass>();
+        private readonly List<TankClass> _tankList;
         public  FireEvent(List<TankClass> tanks)
         {
             _tankList = tanks;

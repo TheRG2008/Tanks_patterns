@@ -57,8 +57,8 @@
         <option value="$PROJECT_DIR$/Assets/Code/EventHandlers/FireEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/TankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankClass.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankView.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankView.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankView.cs" />
       </list>
     </option>
@@ -116,7 +116,7 @@
       <workItem from="1635277132784" duration="4194000" />
       <workItem from="1635356093834" duration="4898000" />
       <workItem from="1635406248232" duration="1000" />
-      <workItem from="1635406341385" duration="3168000" />
+      <workItem from="1635406341385" duration="3576000" />
     </task>
     <servers />
   </component>
