@@ -17,7 +17,7 @@ public class GameStarter : MonoBehaviour
     private FireEvent _fireEvent;
 
     private Cannon _cannon;
-    private List<TankClass.Code.TankClass> _tankList = new List<TankClass.Code.TankClass>();
+    private List<TankClass> _tankList = new List<TankClass>();
 
     private void Start()
     {

@@ -1,4 +1,4 @@
-using TankClass.Interfaces;
+using TankUnit.Interfaces;
 using UnityEngine;
 
 namespace Weapon
