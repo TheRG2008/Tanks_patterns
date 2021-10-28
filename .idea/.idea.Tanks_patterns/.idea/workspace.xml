@@ -10,10 +10,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
+=======
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/c2/ea818fe4/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07C89F75-2069-4139-9913-32D3CF930D48/a7/29d4ea91/Camera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07C89F75-2069-4139-9913-32D3CF930D48/0e/f4e2f25b/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/3e/c254264b/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07C89F75-2069-4139-9913-32D3CF930D48/62/7edfc29a/Rect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8D3A4CBA-CDAE-45B3-84E0-E80B376938E1/65/529b41a2/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/52/056f8b4b/SynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6AF207EC-D210-4462-8913-F7CC589986AE/c0/0deee940/SendMouseEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/ed/21e68ac2/Thread.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+>>>>>>> Stashed changes
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/CommonInterfaces/ITakeDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Model/ITankModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/View/Interface/ITankView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Controller/Interface/ITankControl.cs" />
@@ -51,6 +64,7 @@
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITakeDamage.cs" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
@@ -60,6 +74,24 @@
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankController.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankView.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankView.cs" />
+=======
+        <option value="$PROJECT_DIR$/Assets/Code/Weapon/Cannon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Weapon/BulletStandart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankFire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankFire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Markers/PlayerPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/EventHandlers/FireEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/TankFactory.cs" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -84,10 +116,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+<<<<<<< Updated upstream
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+=======
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15064">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="15064" />
+>>>>>>> Stashed changes
       <option name="selectedOptions">
         <set />
       </option>
@@ -117,6 +156,11 @@
       <workItem from="1635356093834" duration="4898000" />
       <workItem from="1635406248232" duration="1000" />
       <workItem from="1635406341385" duration="3576000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1635429634408" duration="7551000" />
+      <workItem from="1635450590529" duration="5447000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -129,6 +173,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< Updated upstream
     <state width="1323" height="250" key="GridCell.Tab.0.bottom" timestamp="1635281375013">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -193,6 +238,88 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1635281375015" />
+=======
+    <state width="2517" height="170" key="GridCell.Tab.0.bottom" timestamp="1635454343489">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1635281375013" />
+    <state width="2517" height="170" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1635454343489" />
+    <state width="2517" height="170" key="GridCell.Tab.0.center" timestamp="1635454343489">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1635281375013" />
+    <state width="2517" height="170" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1635454343489" />
+    <state width="2517" height="170" key="GridCell.Tab.0.left" timestamp="1635454343489">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1635281375012" />
+    <state width="2517" height="170" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1635454343489" />
+    <state width="2517" height="170" key="GridCell.Tab.0.right" timestamp="1635454343489">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1635281375013" />
+    <state width="2517" height="170" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1635454343489" />
+    <state width="2517" height="170" key="GridCell.Tab.1.bottom" timestamp="1635454351946">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1635281375014" />
+    <state width="2517" height="170" key="GridCell.Tab.1.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1635454351946" />
+    <state width="2517" height="170" key="GridCell.Tab.1.center" timestamp="1635454351946">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1635281375013" />
+    <state width="2517" height="170" key="GridCell.Tab.1.center/0.0.2560.1050@0.0.2560.1050" timestamp="1635454351946" />
+    <state width="2517" height="170" key="GridCell.Tab.1.left" timestamp="1635454351946">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1635281375013" />
+    <state width="2517" height="170" key="GridCell.Tab.1.left/0.0.2560.1050@0.0.2560.1050" timestamp="1635454351946" />
+    <state width="2517" height="170" key="GridCell.Tab.1.right" timestamp="1635454351946">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1635281375013" />
+    <state width="2517" height="170" key="GridCell.Tab.1.right/0.0.2560.1050@0.0.2560.1050" timestamp="1635454351946" />
+    <state width="2517" height="170" key="GridCell.Tab.2.bottom" timestamp="1635454343362">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1635281375014" />
+    <state width="2517" height="170" key="GridCell.Tab.2.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1635454343362" />
+    <state width="2517" height="170" key="GridCell.Tab.2.center" timestamp="1635454343362">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1635281375014" />
+    <state width="2517" height="170" key="GridCell.Tab.2.center/0.0.2560.1050@0.0.2560.1050" timestamp="1635454343362" />
+    <state width="2517" height="170" key="GridCell.Tab.2.left" timestamp="1635454343362">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1635281375014" />
+    <state width="2517" height="170" key="GridCell.Tab.2.left/0.0.2560.1050@0.0.2560.1050" timestamp="1635454343362" />
+    <state width="2517" height="170" key="GridCell.Tab.2.right" timestamp="1635454343362">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1635281375014" />
+    <state width="2517" height="170" key="GridCell.Tab.2.right/0.0.2560.1050@0.0.2560.1050" timestamp="1635454343362" />
+    <state width="2517" height="170" key="GridCell.Tab.3.bottom" timestamp="1635454343363">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1635281375015" />
+    <state width="2517" height="170" key="GridCell.Tab.3.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1635454343363" />
+    <state width="2517" height="170" key="GridCell.Tab.3.center" timestamp="1635454343362">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1635281375015" />
+    <state width="2517" height="170" key="GridCell.Tab.3.center/0.0.2560.1050@0.0.2560.1050" timestamp="1635454343362" />
+    <state width="2517" height="170" key="GridCell.Tab.3.left" timestamp="1635454343362">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1635281375015" />
+    <state width="2517" height="170" key="GridCell.Tab.3.left/0.0.2560.1050@0.0.2560.1050" timestamp="1635454343362" />
+    <state width="2517" height="170" key="GridCell.Tab.3.right" timestamp="1635454343363">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1635281375015" />
+    <state width="2517" height="170" key="GridCell.Tab.3.right/0.0.2560.1050@0.0.2560.1050" timestamp="1635454343363" />
+>>>>>>> Stashed changes
     <state x="928" y="71" key="RiderGenerateDialog" timestamp="1635408587971">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>

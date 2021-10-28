@@ -9,6 +9,7 @@ namespace TankUnit.Code
         public static TankView TankView;
         public ITankFire TankFire;
         public ITankControl TankControl;
+        
        public Health Health { get; set; }
     }
 }

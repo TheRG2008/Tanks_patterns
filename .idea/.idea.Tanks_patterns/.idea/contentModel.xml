@@ -17,6 +17,7 @@
           <e p="Markers" t="Include">
             <e p="BulletMarker.cs" t="Include" />
             <e p="FirePoint.cs" t="Include" />
+            <e p="PlayerPoint.cs" t="Include" />
             <e p="SpawnPoint.cs" t="Include" />
           </e>
           <e p="TankUnit" t="Include">

@@ -2,6 +2,9 @@
 {
     public interface ITankControl
     {
-        public void Move();
+        delegate void MoveToNext();
+
+        event MoveToNext MoveIt;
+        public void MoveTurn();
     }
 }
