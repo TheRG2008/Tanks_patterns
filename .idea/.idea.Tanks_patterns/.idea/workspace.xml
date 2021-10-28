@@ -61,11 +61,11 @@
         <option value="$PROJECT_DIR$/Assets/Code/Weapon/Cannon.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Weapon/BulletStandart.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/TankFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankModel.cs" />
       </list>
     </option>
   </component>
@@ -123,7 +123,7 @@
       <workItem from="1635356093834" duration="4898000" />
       <workItem from="1635406248232" duration="1000" />
       <workItem from="1635406341385" duration="3576000" />
-      <workItem from="1635429634408" duration="6417000" />
+      <workItem from="1635429634408" duration="6956000" />
     </task>
     <servers />
   </component>
