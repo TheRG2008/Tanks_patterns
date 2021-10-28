@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using CommonClasses;
 using EventHandlers;
 using Markers;
@@ -8,6 +9,8 @@ using UnityEngine;
 
 public class GameStarter : MonoBehaviour
 {
+    private bool _makeAI = false;
+    
     private ITankFactory _tankFactory;
     private SpawnPoint[] _spawnPoints;
     private FireEvent _fireEvent;
@@ -23,18 +26,27 @@ public class GameStarter : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.Space))
         {
             _fireEvent.Fire();
-            Debug.Log("FIREEE");
+            Debug.Log("FIREEE from starter");
         }
     }
 
     private void SpawnTanks(SpawnPoint[] spawnPoints)
     {
+        
         foreach (var spawnPoint in  spawnPoints)
         {
-           _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), spawnPoint.transform.position, Color.red));
+            if (!_makeAI)
+            {
+                _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), spawnPoint.transform.position, Color.red, _makeAI));
+                _makeAI = !_makeAI;
+            }
+            else
+            {
+                _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), spawnPoint.transform.position, Color.red, _makeAI));
+            }
         
         }
         Debug.Log($"{_tankList.Count} are here");

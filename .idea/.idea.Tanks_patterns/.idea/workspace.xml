@@ -10,10 +10,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -44,10 +40,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Interfaces/ITankView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/TankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/EventHandlers/FireEnent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankClass.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TankClass/TankFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Markers/BulletMarker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankClass/Interfaces/ITankFire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankClass/Interfaces/ITankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/EventHandlers/FireEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankFire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Markers/FirePoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankClass/TankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankClass.cs" />
       </list>
     </option>
   </component>
@@ -62,21 +64,22 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="6528">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="6528" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="6528">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="6528" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -94,6 +97,7 @@
       <workItem from="1635265989284" duration="48000" />
       <workItem from="1635266108386" duration="7331000" />
       <workItem from="1635277132784" duration="4194000" />
+      <workItem from="1635356093834" duration="4898000" />
     </task>
     <servers />
   </component>
@@ -171,25 +175,12 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="495" y="49" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1635271226465" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1635357895264">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1635357895264" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Code/TankClass/TankFactory.cs</url>
-          <line>17</line>
-          <properties documentPath="C:\Users\konop\Documents\GitHub\Tanks_patterns\Assets\Code\TankClass\TankFactory.cs" initialLine="17">
-            <startOffsets>
-              <option value="564" />
-            </startOffsets>
-            <endOffsets>
-              <option value="576" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#TankClass.Code.TankClass" memberName="Health" />

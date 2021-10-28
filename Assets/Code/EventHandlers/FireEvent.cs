@@ -1,13 +1,14 @@
 ﻿using System.Collections.Generic;
-using CommonClasses;
 using UnityEngine;
 
 namespace EventHandlers
 {
     public class FireEvent
     {
+        public delegate void StartTurn();
+
+        public event StartTurn startTurn;
         private bool _isTurnOver = true;
-        private bool _changeTurn = true;
         private List<TankClass.Code.TankClass> _tankList = new List<TankClass.Code.TankClass>();
         public  FireEvent(List<TankClass.Code.TankClass> tanks)
         {
@@ -18,19 +19,12 @@ namespace EventHandlers
         public void Fire()
         {
             if (!_isTurnOver) return;
-            if (_changeTurn)
-            {
-                _tankList[0].Health.ChangeHp(_tankList[0].Health.CurrentHp - 10.0f);
-                Debug.Log($"Tank 0 HP is {_tankList[0].Health.CurrentHp}");
-                _changeTurn = !_changeTurn;
-            }
             else
             {
-                _tankList[1].Health.ChangeHp(_tankList[0].Health.CurrentHp - 10.0f);
-                Debug.Log($"Tank 1 HP is {_tankList[0].Health.CurrentHp}");
-                _changeTurn = !_changeTurn;
+                //_tankList[0].Health.ChangeHp(10.0f);
+                _tankList[0].TankFire.Fire();
             }
-
+            
         }
         
     }
