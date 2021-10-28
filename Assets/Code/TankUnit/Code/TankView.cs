@@ -1,4 +1,5 @@
-﻿using Markers;
+﻿using System;
+using Markers;
 using TankUnit.Interfaces;
 using UnityEngine;
 
@@ -7,17 +8,13 @@ namespace TankUnit.Code
     public class TankView : TankClass, ITankView
     {
         public bool ai { get; set; }
-      public void OnCollisionEnter(Collision other)
+
+        public void OnTriggerEnter(Collider other)
         {
-            if (TryGetComponent<BulletMarker>(out var bullet) && !ai)
-            {
-                //TURN OVER
-            }
-            else
+            if (other.TryGetComponent<BulletMarker>(out var val) && !ai)
             {
                 TankFire.Fire();
-                Debug.Log("AUTOFIRE");
-                
+                Destroy(other.gameObject);
             }
         }
     }

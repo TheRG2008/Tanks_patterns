@@ -18,7 +18,7 @@ namespace Weapon
         public void Shoot()
         {
             var bulletInstantiate = Instantiate(_bulletPref, _bulletStartPosition.position, transform.rotation);
-            bulletInstantiate.GetComponent<BulletStandart>().Init();
+            //bulletInstantiate.GetComponent<BulletStandart>().Init();
         }
     }
 }

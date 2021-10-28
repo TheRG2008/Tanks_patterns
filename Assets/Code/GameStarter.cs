@@ -55,6 +55,5 @@ public class GameStarter : MonoBehaviour
             }
         
         }
-        Debug.Log($"{_tankList.Count} are here");
-    }
+     }
 }

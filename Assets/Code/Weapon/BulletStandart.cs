@@ -1,3 +1,4 @@
+using TankUnit.Code;
 using TankUnit.Interfaces;
 using UnityEngine;
 
@@ -11,14 +12,15 @@ namespace Weapon
             Destroy(gameObject, _maxLifeTime);
         }
         
-        private void OnTriggerEnter(Collider other)
+     /*   private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag("Enemy"))
+           // if (other.CompareTag("Enemy"))
+           if (other.TryGetComponent<TankView>(out var val))
             {
                 Debug.Log($"Hit {other.name}");
-                other.GetComponent<ITakeDamage>().TakeDamage(_damage);    
+              //  other.GetComponent<ITakeDamage>().TakeDamage(_damage);    
             }
-            Destroy(gameObject, 2f);
-        }
+            //Destroy(gameObject);
+        }*/
     }
 }

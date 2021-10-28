@@ -11,7 +11,6 @@ namespace EventHandlers
         public  FireEvent(List<TankClass> tanks)
         {
             _tankList = tanks;
-            Debug.Log($"Got {tanks.Count} tanks and have {_tankList.Count} in handler");
         }
 
         public void Fire()
