@@ -1,7 +1,8 @@
-﻿namespace TankClass.Interfaces
+﻿namespace TankUnit.Interfaces
 {
     public interface ITankFire
     {
+
         public void Fire();
     }
 }

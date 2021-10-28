@@ -11,8 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8D3A4CBA-CDAE-45B3-84E0-E80B376938E1/65/529b41a2/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -44,10 +43,29 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/Interfaces/ITankView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TankClass/TankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/EventHandlers/FireEnent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Markers/BulletMarker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankClass/Interfaces/ITankFire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankClass/Interfaces/ITankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankFire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Markers/FirePoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/TankFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITakeDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankController.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/EventHandlers/FireEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankFire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Weapon/Cannon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Weapon/BulletStandart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/TankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankModel.cs" />
       </list>
     </option>
   </component>
@@ -57,26 +75,34 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498452" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3003096" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3004827" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="6528">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12900">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="6528" />
+      <option name="pid" value="12900" />
       <option name="selectedOptions">
         <set />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="6528">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="6528" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -94,8 +120,15 @@
       <workItem from="1635265989284" duration="48000" />
       <workItem from="1635266108386" duration="7331000" />
       <workItem from="1635277132784" duration="4194000" />
+      <workItem from="1635356093834" duration="4898000" />
+      <workItem from="1635406248232" duration="1000" />
+      <workItem from="1635406341385" duration="3576000" />
+      <workItem from="1635429634408" duration="6956000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -103,93 +136,97 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="250" key="GridCell.Tab.0.bottom" timestamp="1635281375013">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.0.bottom" timestamp="1635434066209">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1635281375013" />
-    <state width="1323" height="250" key="GridCell.Tab.0.center" timestamp="1635281375013">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1635434066209" />
+    <state width="2517" height="170" key="GridCell.Tab.0.center" timestamp="1635434066209">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1635281375013" />
-    <state width="1323" height="250" key="GridCell.Tab.0.left" timestamp="1635281375012">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1635434066209" />
+    <state width="2517" height="170" key="GridCell.Tab.0.left" timestamp="1635434066209">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1635281375012" />
-    <state width="1323" height="250" key="GridCell.Tab.0.right" timestamp="1635281375013">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1635434066209" />
+    <state width="2517" height="170" key="GridCell.Tab.0.right" timestamp="1635434066209">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1635281375013" />
-    <state width="1323" height="250" key="GridCell.Tab.1.bottom" timestamp="1635281375014">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1635434066209" />
+    <state width="2517" height="170" key="GridCell.Tab.1.bottom" timestamp="1635434073736">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1635281375014" />
-    <state width="1323" height="250" key="GridCell.Tab.1.center" timestamp="1635281375013">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.1.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1635434073736" />
+    <state width="2517" height="170" key="GridCell.Tab.1.center" timestamp="1635434073736">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1635281375013" />
-    <state width="1323" height="250" key="GridCell.Tab.1.left" timestamp="1635281375013">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.1.center/0.0.2560.1050@0.0.2560.1050" timestamp="1635434073736" />
+    <state width="2517" height="170" key="GridCell.Tab.1.left" timestamp="1635434073736">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1635281375013" />
-    <state width="1323" height="250" key="GridCell.Tab.1.right" timestamp="1635281375013">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.1.left/0.0.2560.1050@0.0.2560.1050" timestamp="1635434073736" />
+    <state width="2517" height="170" key="GridCell.Tab.1.right" timestamp="1635434073736">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1635281375013" />
-    <state width="1323" height="250" key="GridCell.Tab.2.bottom" timestamp="1635281375014">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.1.right/0.0.2560.1050@0.0.2560.1050" timestamp="1635434073736" />
+    <state width="2517" height="170" key="GridCell.Tab.2.bottom" timestamp="1635434066063">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1635281375014" />
-    <state width="1323" height="250" key="GridCell.Tab.2.center" timestamp="1635281375014">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.2.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1635434066063" />
+    <state width="2517" height="170" key="GridCell.Tab.2.center" timestamp="1635434066063">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1635281375014" />
-    <state width="1323" height="250" key="GridCell.Tab.2.left" timestamp="1635281375014">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.2.center/0.0.2560.1050@0.0.2560.1050" timestamp="1635434066063" />
+    <state width="2517" height="170" key="GridCell.Tab.2.left" timestamp="1635434066063">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1635281375014" />
-    <state width="1323" height="250" key="GridCell.Tab.2.right" timestamp="1635281375014">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.2.left/0.0.2560.1050@0.0.2560.1050" timestamp="1635434066063" />
+    <state width="2517" height="170" key="GridCell.Tab.2.right" timestamp="1635434066063">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1635281375014" />
-    <state width="1323" height="250" key="GridCell.Tab.3.bottom" timestamp="1635281375015">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.2.right/0.0.2560.1050@0.0.2560.1050" timestamp="1635434066063" />
+    <state width="2517" height="170" key="GridCell.Tab.3.bottom" timestamp="1635434066064">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1635281375015" />
-    <state width="1323" height="250" key="GridCell.Tab.3.center" timestamp="1635281375015">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.3.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1635434066064" />
+    <state width="2517" height="170" key="GridCell.Tab.3.center" timestamp="1635434066063">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1635281375015" />
-    <state width="1323" height="250" key="GridCell.Tab.3.left" timestamp="1635281375015">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.3.center/0.0.2560.1050@0.0.2560.1050" timestamp="1635434066063" />
+    <state width="2517" height="170" key="GridCell.Tab.3.left" timestamp="1635434066063">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1635281375015" />
-    <state width="1323" height="250" key="GridCell.Tab.3.right" timestamp="1635281375015">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.3.left/0.0.2560.1050@0.0.2560.1050" timestamp="1635434066063" />
+    <state width="2517" height="170" key="GridCell.Tab.3.right" timestamp="1635434066063">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1635281375015" />
-    <state x="495" y="49" key="RiderGenerateDialog" timestamp="1635271226465">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="2517" height="170" key="GridCell.Tab.3.right/0.0.2560.1050@0.0.2560.1050" timestamp="1635434066063" />
+    <state x="928" y="71" key="RiderGenerateDialog" timestamp="1635408587971">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="495" y="49" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1635271226465" />
+    <state x="928" y="71" key="RiderGenerateDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1635408587971" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1635357895264">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1635357895264" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Code/TankClass/TankFactory.cs</url>
-          <line>17</line>
-          <properties documentPath="C:\Users\konop\Documents\GitHub\Tanks_patterns\Assets\Code\TankClass\TankFactory.cs" initialLine="17">
-            <startOffsets>
-              <option value="564" />
-            </startOffsets>
-            <endOffsets>
-              <option value="576" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#TankClass.Code.TankClass" memberName="Health" />

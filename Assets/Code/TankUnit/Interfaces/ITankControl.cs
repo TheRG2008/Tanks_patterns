@@ -1,4 +1,4 @@
-﻿namespace TankClass.Interfaces
+﻿namespace TankUnit.Interfaces
 {
     public interface ITankControl
     {
