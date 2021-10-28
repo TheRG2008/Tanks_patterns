@@ -7,7 +7,6 @@ namespace TankUnit.Code
     {
         public Color Color { get; set; }
         public float Size { get; set; }
-
         public TankModel(Color color, float size) 
         {
             Color = color;
