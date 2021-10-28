@@ -30,10 +30,7 @@ public class GameStarter : MonoBehaviour
         {
             _fireEvent.Fire();
             Debug.Log("FIREEE from starter");
-<<<<<<< Updated upstream
-=======
-            //_cannon.Shoot();
->>>>>>> Stashed changes
+
         }
     }
 
@@ -42,22 +39,9 @@ public class GameStarter : MonoBehaviour
      _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), FindObjectOfType<PlayerPoint>().transform.position, Color.red, FindObjectOfType<PlayerPoint>().transform.rotation.eulerAngles, _makeAI));   
         foreach (var spawnPoint in  spawnPoints)
         {
-<<<<<<< Updated upstream
-            if (!_makeAI)
-            {
-                _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), spawnPoint.transform.position, Color.red, _makeAI));
-                _makeAI = !_makeAI;
-            }
-            else
-            {
-                _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), spawnPoint.transform.position, Color.red, _makeAI));
-            }
-        
-=======
             var transform1 = spawnPoint.transform;
            
                 _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), transform1.position, Color.red,   FindObjectOfType<PlayerPoint>().transform.position,!_makeAI));
->>>>>>> Stashed changes
         }
         Debug.Log($"{_tankList.Count} are here");
     }

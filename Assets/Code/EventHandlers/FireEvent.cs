@@ -12,9 +12,7 @@ namespace EventHandlers
         public  FireEvent(List<TankClass> tanks)
         {
             _tankList = tanks;
-<<<<<<< Updated upstream
-            Debug.Log($"Got {tanks.Count} tanks and have {_tankList.Count} in handler");
-=======
+
             foreach (var tank in _tankList)
             {
                 tank.TankControl.MoveIt += () =>
@@ -24,7 +22,7 @@ namespace EventHandlers
                     Fire();
                 };
             }
->>>>>>> Stashed changes
+
         }
 
         public void Fire()

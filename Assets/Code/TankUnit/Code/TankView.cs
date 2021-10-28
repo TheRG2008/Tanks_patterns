@@ -10,18 +10,6 @@ namespace TankUnit.Code
         public bool ai { get; set; }
       public void OnCollisionEnter(Collision other)
         {
-<<<<<<< Updated upstream
-            if (TryGetComponent<BulletMarker>(out var bullet) && !ai)
-            {
-                //TURN OVER
-            }
-            else
-            {
-                TankFire.Fire();
-                Debug.Log("AUTOFIRE");
-                
-            }
-=======
             Debug.Log($"Got Damage and ai is {ai}");
             if (ai)
             {
@@ -29,8 +17,6 @@ namespace TankUnit.Code
                 getNext?.Invoke();
             }
 
-            return damage;
->>>>>>> Stashed changes
         }
     }
 }
