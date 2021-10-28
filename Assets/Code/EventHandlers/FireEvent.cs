@@ -1,16 +1,14 @@
 ﻿using System.Collections.Generic;
+using TankUnit.Code;
 using UnityEngine;
 
 namespace EventHandlers
 {
     public class FireEvent
     {
-        public delegate void StartTurn();
-
-        public event StartTurn startTurn;
         private bool _isTurnOver = true;
-        private List<TankClass.Code.TankClass> _tankList = new List<TankClass.Code.TankClass>();
-        public  FireEvent(List<TankClass.Code.TankClass> tanks)
+        private List<TankClass> _tankList = new List<TankClass>();
+        public  FireEvent(List<TankClass> tanks)
         {
             _tankList = tanks;
             Debug.Log($"Got {tanks.Count} tanks and have {_tankList.Count} in handler");
@@ -19,12 +17,8 @@ namespace EventHandlers
         public void Fire()
         {
             if (!_isTurnOver) return;
-            else
-            {
-                //_tankList[0].Health.ChangeHp(10.0f);
-                _tankList[0].TankFire.Fire();
-            }
-            
+            _tankList[0].TankFire.Fire();
+
         }
         
     }
