@@ -1,15 +1,15 @@
-﻿using TankClass.Interfaces;
+﻿using TankUnit.Interfaces;
 using UnityEngine;
 
-namespace TankClass.Code
+namespace TankUnit.Code
 {
     public class TankFire : ITankFire
     {
         private Vector2 _spawnPoint;
         private Vector2 _direction;
-        public TankFire(Vector2 SpawnPoint, Vector2 direction)
+        public TankFire(Vector2 spawnPoint, Vector2 direction)
         {
-            _spawnPoint = SpawnPoint;
+            _spawnPoint = spawnPoint;
             _direction = direction;
 
         }

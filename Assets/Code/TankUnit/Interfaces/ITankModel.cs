@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace TankClass.Interfaces
+namespace TankUnit.Interfaces
 {
     public interface ITankModel
     {

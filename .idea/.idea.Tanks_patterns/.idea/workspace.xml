@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92e4d58b-faa6-4b9d-bdaf-0597bdf3b467" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Weapon.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Weapon/BulletBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Weapon/BulletBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Weapon/BulletStandart.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Weapon/BulletStandart.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Weapon/Cannon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Weapon/Cannon.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tanks_patterns/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tanks_patterns/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tanks_patterns/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tanks_patterns/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tanks_patterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tanks_patterns/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tanks_patterns/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/GameStarter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/GameStarter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/CompleteTank.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/CompleteTank.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/DustTrail.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/DustTrail.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/ShellExplosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/ShellExplosion.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-    </list>
+    <list default="true" id="92e4d58b-faa6-4b9d-bdaf-0597bdf3b467" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,12 +44,22 @@
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankView.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/Interfaces/ITankFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/Interfaces/ITankFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/EventHandlers/FireEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Markers/FirePoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TankClass/TankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankClass/TankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankFire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITakeDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/EventHandlers/FireEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/TankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankView.cs" />
       </list>
     </option>
   </component>
@@ -82,6 +74,12 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -90,9 +88,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -100,9 +97,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -119,27 +115,16 @@
       <workItem from="1635266108386" duration="7331000" />
       <workItem from="1635277132784" duration="4194000" />
       <workItem from="1635356093834" duration="4898000" />
-      <workItem from="1635410419202" duration="5008000" />
+      <workItem from="1635406248232" duration="1000" />
+      <workItem from="1635406341385" duration="3576000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -208,10 +193,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1635281375015" />
-    <state x="495" y="49" key="RiderGenerateDialog" timestamp="1635271226465">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="928" y="71" key="RiderGenerateDialog" timestamp="1635408587971">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="495" y="49" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1635271226465" />
+    <state x="928" y="71" key="RiderGenerateDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1635408587971" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1635357895264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

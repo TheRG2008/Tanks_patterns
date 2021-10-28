@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\1\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\1\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Tanks_patterns.298994923.00" t="ExcludeRecursive" />
+    <e p="C:\Users\1\Documents\Unity Rep\HW_Terrain\Tanks_patterns" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Code" t="Include">
+          <e p="CommonClasses" t="Include">
+            <e p="HealthClass.cs" t="Include" />
+          </e>
+          <e p="EventHandlers" t="Include">
+            <e p="FireEvent.cs" t="Include" />
+          </e>
+          <e p="GameStarter.cs" t="Include" />
+          <e p="Markers" t="Include">
+            <e p="BulletMarker.cs" t="Include" />
+            <e p="FirePoint.cs" t="Include" />
+            <e p="SpawnPoint.cs" t="Include" />
+          </e>
+          <e p="TankUnit" t="Include">
+            <e p="Code" t="Include">
+              <e p="TankClass.cs" t="Include" />
+              <e p="TankCOntroller.cs" t="Include" />
+              <e p="TankFire.cs" t="Include" />
+              <e p="TankModel.cs" t="Include" />
+              <e p="TankView.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="ITakeDamage.cs" t="Include" />
+              <e p="ITankControl.cs" t="Include" />
+              <e p="ITankFactory.cs" t="Include" />
+              <e p="ITankFire.cs" t="Include" />
+              <e p="ITankModel.cs" t="Include" />
+              <e p="ITankView.cs" t="Include" />
+            </e>
+            <e p="TankFactory.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Fonts" t="Include">
+          <e p="Bowlby_One" t="Include">
+            <e p="FontLicense.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Tanks!_Third-PartyNotice.txt" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Tanks_patterns.sln" t="IncludeFlat" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

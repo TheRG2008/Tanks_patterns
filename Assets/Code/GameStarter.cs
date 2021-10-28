@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using CommonClasses;
 using EventHandlers;
 using Markers;
-using TankClass;
-using TankClass.Interfaces;
+using TankUnit;
+using TankUnit.Code;
+using TankUnit.Interfaces;
 using UnityEngine;
 using Weapon;
 
@@ -15,8 +15,10 @@ public class GameStarter : MonoBehaviour
     private ITankFactory _tankFactory;
     private SpawnPoint[] _spawnPoints;
     private FireEvent _fireEvent;
+
     private Cannon _cannon;
     private List<TankClass.Code.TankClass> _tankList = new List<TankClass.Code.TankClass>();
+
     private void Start()
     {
         _spawnPoints = FindObjectsOfType<SpawnPoint>();
