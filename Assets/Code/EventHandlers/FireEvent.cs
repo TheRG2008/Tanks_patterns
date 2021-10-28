@@ -30,7 +30,6 @@ namespace EventHandlers
             if (_isTurnOver) return;
 //            Debug.Log($"shot from {choose_next()}");
             _tankList[choose_next()].TankFire.Fire();
-
         }
 
         private int choose_next()

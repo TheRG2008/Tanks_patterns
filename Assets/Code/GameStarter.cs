@@ -36,12 +36,12 @@ public class GameStarter : MonoBehaviour
 
     private void SpawnTanks(SpawnPoint[] spawnPoints)
     {
-     _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), FindObjectOfType<PlayerPoint>().transform.position, Color.red, FindObjectOfType<PlayerPoint>().transform.rotation.eulerAngles, _makeAI));   
+     _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), FindObjectOfType<PlayerPoint>().transform.position, Color.red, FindObjectOfType<PlayerPoint>().transform.rotation, _makeAI));   
         foreach (var spawnPoint in  spawnPoints)
         {
             var transform1 = spawnPoint.transform;
            
-                _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), transform1.position, Color.red,   FindObjectOfType<PlayerPoint>().transform.position,!_makeAI));
+                _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), transform1.position, Color.red, Quaternion.Euler( FindObjectOfType<PlayerPoint>().transform.position),!_makeAI));
         }
         Debug.Log($"{_tankList.Count} are here");
     }

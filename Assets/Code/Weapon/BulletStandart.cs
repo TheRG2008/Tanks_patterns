@@ -14,7 +14,7 @@ namespace Weapon
         
         private void OnTriggerEnter(Collider other)
         {
-           // if (other.CompareTag("Enemy"))
+          
            if (other.TryGetComponent<TankView>(out var val))
             {
                 Debug.Log($"Hit {other.name}");
