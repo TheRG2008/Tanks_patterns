@@ -6,6 +6,7 @@ using Markers;
 using TankClass;
 using TankClass.Interfaces;
 using UnityEngine;
+using Weapon;
 
 public class GameStarter : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class GameStarter : MonoBehaviour
     private ITankFactory _tankFactory;
     private SpawnPoint[] _spawnPoints;
     private FireEvent _fireEvent;
+    private Cannon _cannon;
     private List<TankClass.Code.TankClass> _tankList = new List<TankClass.Code.TankClass>();
     private void Start()
     {
@@ -21,6 +23,7 @@ public class GameStarter : MonoBehaviour
         _tankFactory = new TankFactory();
         SpawnTanks(_spawnPoints);
         _fireEvent = new FireEvent(_tankList);
+        _cannon = FindObjectOfType<Cannon>();
     }
 
 
@@ -28,8 +31,9 @@ public class GameStarter : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Space))
         {
-            _fireEvent.Fire();
+            //_fireEvent.Fire();
             Debug.Log("FIREEE from starter");
+            _cannon.Shoot();
         }
     }
 
