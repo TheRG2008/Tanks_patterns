@@ -44,16 +44,18 @@ public class GameStarter : MonoBehaviour
         
         foreach (var spawnPoint in  spawnPoints)
         {
+            var transform1 = spawnPoint.transform;
             if (!_makeAI)
             {
-                _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), spawnPoint.transform.position, Color.red, _makeAI));
+                
+                _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), transform1.position, Color.red, transform1.rotation, _makeAI));
                 _makeAI = !_makeAI;
             }
             else
             {
-                _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), spawnPoint.transform.position, Color.red, _makeAI));
+                _tankList.Add(_tankFactory.Create(new Health(100.0f, 100.0f), transform1.position, Color.red, transform1.rotation, _makeAI));
             }
         
         }
-     }
+    }
 }

@@ -51,20 +51,21 @@
         <option value="$PROJECT_DIR$/Assets/Code/Markers/FirePoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/Code/TankClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankClass/TankFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITakeDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankView.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/EventHandlers/FireEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankFire.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/TankFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Weapon/BulletStandart.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Weapon/Cannon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Weapon/BulletStandart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Code/TankModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/TankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TankUnit/Interfaces/ITankFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
       </list>
     </option>
   </component>
@@ -122,7 +123,7 @@
       <workItem from="1635356093834" duration="4898000" />
       <workItem from="1635406248232" duration="1000" />
       <workItem from="1635406341385" duration="3576000" />
-      <workItem from="1635429634408" duration="4666000" />
+      <workItem from="1635429634408" duration="6417000" />
     </task>
     <servers />
   </component>

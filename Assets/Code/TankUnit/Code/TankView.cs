@@ -5,17 +5,14 @@ using UnityEngine;
 
 namespace TankUnit.Code
 {
-    public class TankView : TankClass, ITankView
+    public class TankView : TankClass, ITankView, ITakeDamage
     {
         public bool ai { get; set; }
-
-        public void OnTriggerEnter(Collider other)
+        public float TakeDamage(float damage)
         {
-            if (other.TryGetComponent<BulletMarker>(out var val) && !ai)
-            {
-                TankFire.Fire();
-                Destroy(other.gameObject);
-            }
+            float _damage = damage;
+            if (!ai) TankFire.Fire();
+            return damage;
         }
     }
 }
