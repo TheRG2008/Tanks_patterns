@@ -8,14 +8,14 @@ namespace TankUnit.Code
 {
     public class TankView : TankClass, ITankView, ITakeDamage
     {
-        private Object _shellExplosionPrefab;
-        private Transform _shellExplosionPosition;
+        private Object _bulletExplosionPrefab;
+        private Transform _bulletExplosionPosition;
         public bool ai { get; set; }
 
         private void Awake()
         {
-            _shellExplosionPrefab = Resources.Load("Prefabs/ShellExplosion");
-            _shellExplosionPosition = gameObject.GetComponent<BulletMarker>().transform;
+            _bulletExplosionPrefab = Resources.Load("Prefabs/ShellExplosion");
+            _bulletExplosionPosition = gameObject.GetComponent<BulletMarker>().transform;
         }
 
         public float TakeDamage(float damage)
@@ -23,12 +23,8 @@ namespace TankUnit.Code
             
             float _damage = damage;
             if (!ai) TankFire.Fire();
-            //if (!gameObject.TryGetComponent(out _shellExplosionPrefab))
-            //{
-            //    Debug.Log("TryGetComponent");
-            //}
-            Instantiate(_shellExplosionPrefab, _shellExplosionPosition);
-            //Destroy();
+            Instantiate(_bulletExplosionPrefab, _bulletExplosionPosition);
+            Destroy(GetComponentInChildren<ParticleSystem>().gameObject,2f);
             return damage;
         }
     }
