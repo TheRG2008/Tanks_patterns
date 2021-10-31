@@ -1,17 +1,17 @@
 using Markers;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Weapon
 {
     public class Cannon : MonoBehaviour
     {
-        [SerializeField] private GameObject _bulletPref;
-        [SerializeField] private Transform _bulletStartPosition;
-        public float _firerate => 5f;
+        [SerializeField] private GameObject bulletPref;
+        [SerializeField] private Transform bulletStartPosition;
 
         public void Shoot()
         {
-           Instantiate(_bulletPref, _bulletStartPosition.position, transform.rotation);
+           Instantiate(bulletPref, bulletStartPosition.position, transform.rotation);
         }
     }
 }

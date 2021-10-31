@@ -7,7 +7,7 @@ namespace TankUnit.Interfaces
     public interface ITankFactory
     {
 
-        public TankClass Create(Health heath, Vector3 position, Color color, Quaternion rotation, bool ai);
+        public TankClass Create(Health heath, Vector3 position, Color color, Transform rotation, bool ai);
 
     }
 }

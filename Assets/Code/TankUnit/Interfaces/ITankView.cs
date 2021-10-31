@@ -4,7 +4,9 @@
     {
         delegate void Damaged();
 
-        event Damaged getNext;
-        public bool ai {get; set; }
+        event Damaged GETNext;
+        public bool AI {get; set; }
+
+        public bool Firstblood { get; set; }
     }
 }

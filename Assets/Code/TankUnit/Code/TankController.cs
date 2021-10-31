@@ -6,21 +6,18 @@ namespace TankUnit.Code
     {
         private readonly ITankModel _tankModel;
         private readonly ITankView _tankView;
-        public event ITankControl.MoveToNext MoveIt;
 
         public TankController(ITankModel tankModel, ITankView tankView, bool ai)
         {
             _tankModel = tankModel;
             _tankView = tankView;
-            _tankView.ai = ai;
-            _tankView.getNext += () => MoveIt?.Invoke();
+            _tankView.AI = ai;
+            _tankView.Firstblood = true;
         }
 
-        
-
-        public void MoveTurn()
+        public void NewTurn()
         {
-            throw new System.NotImplementedException();
+            _tankView.Firstblood = !_tankView.Firstblood;
         }
     }
 }

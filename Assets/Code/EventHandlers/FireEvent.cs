@@ -7,47 +7,54 @@ namespace EventHandlers
     public class FireEvent
     {
         private bool _isTurnOver = false;
-        public int Counter = 0;
+        private int _counter = 0;
         private readonly List<TankClass> _tankList;
         public  FireEvent(List<TankClass> tanks)
         {
             _tankList = tanks;
-
             foreach (var tank in _tankList)
             {
-                tank.TankControl.MoveIt += () =>
-                {
-                    Debug.Log($"next is {Counter}");
-                    Counter++;
-                    Fire();
-                };
+                tank.TankFire.MoveIt += AutoFire;
             }
-
         }
-
+        private void AutoFire()
+        {
+            Debug.Log($"Next is {_counter}");
+            _tankList[choose_next()].TankFire.Fire();
+            _counter++;
+        }
         public void Fire()
         {
-            if (_isTurnOver) return;
-//            Debug.Log($"shot from {choose_next()}");
+            if (_isTurnOver)
+            {
+                if (_counter == _tankList.Count)
+                {
+                    NewTurn(_tankList);
+                    Fire();
+                }
+                Debug.Log($"BAAAAD counter is {_counter} must be {_tankList.Count}");
+                return;
+            }
             _tankList[choose_next()].TankFire.Fire();
+           _isTurnOver = true;
         }
-
         private int choose_next()
         {
-            if (Counter == _tankList.Count)
+            if (_counter != _tankList.Count)
             {
-                _isTurnOver = true;
-                NewTurn(_tankList);
-                return 0;
+                return _counter;
             }
-            return Counter;
+            return _counter;
         }
-
         private void NewTurn(List<TankClass> tanklist)
         {
+            Debug.Log("restart");
             foreach (var tank in tanklist)
             {
+                _counter = 0;
+                _isTurnOver = false;
                 tank.TankFire.Fired = false;
+                tank.TankControl.NewTurn();
             }
         }
         

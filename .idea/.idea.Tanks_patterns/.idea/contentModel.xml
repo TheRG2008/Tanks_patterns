@@ -15,7 +15,6 @@
           </e>
           <e p="GameStarter.cs" t="Include" />
           <e p="Markers" t="Include">
-            <e p="BulletMarker.cs" t="Include" />
             <e p="FirePoint.cs" t="Include" />
             <e p="PlayerPoint.cs" t="Include" />
             <e p="SpawnPoint.cs" t="Include" />

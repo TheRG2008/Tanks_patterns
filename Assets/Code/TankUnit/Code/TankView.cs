@@ -1,6 +1,7 @@
 ﻿using Markers;
 using TankUnit.Interfaces;
 using UnityEngine;
+using Weapon;
 using Object = UnityEngine.Object;
 
 namespace TankUnit.Code
@@ -8,24 +9,16 @@ namespace TankUnit.Code
     public class TankView : TankClass, ITankView, ITakeDamage
     {
 
-        public event ITankView.Damaged getNext;
-       private Object _bulletExplosionPrefab;
-        private Transform _bulletExplosionPosition;
-        public bool ai { get; set; }
-
-        private void Awake()
-        {
-            _bulletExplosionPrefab = Resources.Load("Prefabs/ShellExplosion");
-            _bulletExplosionPosition = gameObject.GetComponent<BulletMarker>().transform;
-        }
+        public event ITankView.Damaged GETNext;
+       
+        public bool AI { get; set; }
+        public bool Firstblood { get; set; }
 
         public float TakeDamage(float damage)
         {
-            if (ai) getNext?.Invoke();
-            float _damage = damage;
-            if (!ai) TankFire.Fire();
-            Instantiate(_bulletExplosionPrefab, _bulletExplosionPosition);
-            Destroy(GetComponentInChildren<ParticleSystem>().gameObject,2f);
+            if (!AI && Firstblood) Firstblood = !Firstblood;
+          
+            GETNext?.Invoke();
             return damage;
         }
     }

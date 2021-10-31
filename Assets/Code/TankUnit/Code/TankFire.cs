@@ -6,25 +6,26 @@ namespace TankUnit.Code
 {
     public class TankFire : ITankFire
     {
-
         private Vector3 _spawnPoint;
-        private Cannon _cannon;
-        public TankFire(Vector3 spawnPoint,  Cannon cannon)
+        private readonly Cannon _cannon;
+        public bool Fired { get; set; }
+        public event ITankFire.MoveToNext MoveIt;
+        public TankFire(Vector3 spawnPoint, Cannon cannon, ITankView tankView)
         {
             _spawnPoint = spawnPoint;
             _cannon = cannon;
-
+            tankView.GETNext += () =>
+            {
+                MoveIt?.Invoke();
+                Fire();
+            };
+            Fired = false;
         }
-
-        public bool Fired { get; set; }
-
         public void Fire()
         {
-            if (!Fired)
-            {
-                _cannon.Shoot();
-                Fired = true;
-            }
+            if (Fired) return;
+            _cannon.Shoot();
+            Fired = true;
         }
     }
 }
