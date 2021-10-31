@@ -9,9 +9,7 @@ namespace TankUnit.Code
     {
 
         public event ITankView.Damaged getNext;
-        public bool ai { get; set; }
-     
-        private Object _bulletExplosionPrefab;
+       private Object _bulletExplosionPrefab;
         private Transform _bulletExplosionPosition;
         public bool ai { get; set; }
 
