@@ -1,4 +1,5 @@
-﻿using Markers;
+﻿using System;
+using Markers;
 using TankUnit.Interfaces;
 using UnityEngine;
 using Weapon;
@@ -8,9 +9,14 @@ namespace TankUnit.Code
 {
     public class TankView : TankClass, ITankView, ITakeDamage
     {
-
+        public Transform Transform { get; set; }
         public event ITankView.Damaged GETNext;
-       
+
+        private void Awake()
+        {
+            Transform = transform;
+        }
+
         public bool AI { get; set; }
         public bool Firstblood { get; set; }
 

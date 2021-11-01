@@ -8,7 +8,13 @@ namespace TankUnit.Code
     {
         private Vector3 _spawnPoint;
         private readonly Cannon _cannon;
-        public bool Fired { get; set; }
+        private bool _fired;
+        public bool Fired
+        {
+            get => _fired;
+            set => _fired = value;
+        }
+
         public event ITankFire.MoveToNext MoveIt;
         public TankFire(Vector3 spawnPoint, Cannon cannon, ITankView tankView)
         {
@@ -19,13 +25,18 @@ namespace TankUnit.Code
                 MoveIt?.Invoke();
                 Fire();
             };
-            Fired = false;
+            _fired = false;
         }
         public void Fire()
         {
-            if (Fired) return;
+            if (_fired)
+            {
+                Debug.Log("no ammo");
+          //      MoveIt?.Invoke();
+                return;
+            }
             _cannon.Shoot();
-            Fired = true;
+            _fired = true;
         }
     }
 }

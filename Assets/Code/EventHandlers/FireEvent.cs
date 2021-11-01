@@ -14,14 +14,8 @@ namespace EventHandlers
             _tankList = tanks;
             foreach (var tank in _tankList)
             {
-                tank.TankFire.MoveIt += AutoFire;
+                tank.TankFire.MoveIt += choose_next;
             }
-        }
-        private void AutoFire()
-        {
-            Debug.Log($"Next is {_counter}");
-            _tankList[choose_next()].TankFire.Fire();
-            _counter++;
         }
         public void Fire()
         {
@@ -35,16 +29,30 @@ namespace EventHandlers
                 Debug.Log($"BAAAAD counter is {_counter} must be {_tankList.Count}");
                 return;
             }
-            _tankList[choose_next()].TankFire.Fire();
-           _isTurnOver = true;
+            _tankList[0].transform.LookAt(_tankList[Random.Range(1,_tankList.Count)].transform.position);
+            _tankList[0].TankFire.Fire();
+            _isTurnOver = true;
         }
-        private int choose_next()
+        private void choose_next()
         {
-            if (_counter != _tankList.Count)
+            _counter = 0;
+            for(int i =0;i<_tankList.Count;i++)
             {
-                return _counter;
+                
+                    if (!_tankList[i].TankFire.Fired)
+                    {
+                        AutoFire(i);
+                        Debug.Log($"{_counter}") ;
+                        break;
+                    }
+                    _counter++;
             }
-            return _counter;
+            
+        }
+        void AutoFire(int counter)
+        {
+            Debug.Log("auto");
+            _tankList[counter].TankFire.Fire();
         }
         private void NewTurn(List<TankClass> tanklist)
         {

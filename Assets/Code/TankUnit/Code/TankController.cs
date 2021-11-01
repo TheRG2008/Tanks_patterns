@@ -1,4 +1,5 @@
 ﻿using TankUnit.Interfaces;
+using UnityEngine;
 
 namespace TankUnit.Code
 {
@@ -13,6 +14,11 @@ namespace TankUnit.Code
             _tankView = tankView;
             _tankView.AI = ai;
             _tankView.Firstblood = true;
+        }
+
+        public void RotateTo(Transform transform)
+        {
+            _tankView.Transform = transform;
         }
 
         public void NewTurn()
